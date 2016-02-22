@@ -5,5 +5,5 @@ Ghost is a simply Blogging plattform. [See in wikipedia](https://de.wikipedia.or
 
 Clone the Template to you Template dir
 ```bash
-git clone 
+git clone https://github.com/bauidch/Kado.git
 ```
