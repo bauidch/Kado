@@ -1,0 +1,10 @@
+{
+  "name": "kado",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bauidch/kado.git"
+  },
+  "description": "A simply Ghost Template with Zurb's Foundation",
+  "author": "bauidch"
+}
