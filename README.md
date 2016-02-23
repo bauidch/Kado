@@ -8,8 +8,8 @@
 Ghost is a simply Blogging plattform. [See in wikipedia](https://de.wikipedia.org/wiki/Ghost_(Blogging-Plattform))
 
 ##Installation
-Clone the Template
+Clone the Template in your directory
 ```bash
-cd /your-ghost-root-directory
-git clone https://github.com/bauidch/Kado.git content/themes/kado
+cd /ghost-directory/content/themes/kado
+git clone https://github.com/bauidch/Kado.git 
 ```
