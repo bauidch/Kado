@@ -1,5 +1,6 @@
-.top-bar {
+.nav-b {
   background-color: #4D8FAC;
+  padding: 0.5rem;
 
 }
 
@@ -15,6 +16,11 @@
   background-color: white;
 }
 
+/*Typo*/
+a {
+  color: #5D8CAE;
+
+}
 
 /*Footer---------------------------------------------------------------------*/
 
