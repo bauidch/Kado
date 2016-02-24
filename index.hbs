@@ -1,1 +1,19 @@
+{{!< default}}
 
+<div class="row medium-8 large-7 columns">
+  {{#foreach posts}}
+  <div class="blog-post">
+    <h3><a href="{{url}}">{{title}}</a><small><time datetime="{{date format='DD.MM.YYYY'}}">{{date format="DD MM YYYY"}}</time></small></h3>
+    <p>{{content}}</p>
+    <div class="callout">
+      <ul class="menu simple">
+        {{#author}}
+        <li><a href="{{url}}">{{name}}</a></li>
+        <li>{{#if location}} | {{location}} {{/if}}</li>
+        {{/author}}
+        <li>{{#if tags}} | Tags: {{tags}}{{/if}}</li>
+      </ul>
+    </div>
+  </div>
+  {{/foreach}}
+</div>
