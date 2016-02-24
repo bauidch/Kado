@@ -11,9 +11,10 @@
         <li><a href="{{url}}">{{name}}</a></li>
         <li>{{#if location}} | {{location}} {{/if}}</li>
         {{/author}}
-        <li>{{#if tags}} | Tags: {{tags}}{{/if}}</li>
       </ul>
     </div>
   </div>
   {{/foreach}}
+
+  {{pagination}}
 </div>

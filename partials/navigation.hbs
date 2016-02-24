@@ -6,6 +6,12 @@
     <h2 class="subheader">{{@blog.description}}</h2>
 </div>
 
-{{#foreach navigation}}
-    <li><a href="{{url absolute="true"}}">{{label}}</a></li>
-{{/foreach}}
+      <nav class="top-bar">
+        <section class="top-bar-section">
+          <ul class="left">
+            {{#foreach navigation}}
+                <li><a href="{{url absolute="true"}}">{{label}}</a></li>
+            {{/foreach}}
+          </ul>
+        </section>
+      </nav>
