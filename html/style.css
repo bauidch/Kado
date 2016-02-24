@@ -1,3 +1,12 @@
+/*
+Theme Name: Kado
+Theme URI: http://bauid.ch/
+Author: Lukas Bauer
+Author URI: http://bauid.ch
+Description:
+Version: 0.1
+Text Domain: kado
+*/
 .nav-b {
   background-color: #4D8FAC;
   padding: 0.5rem;
@@ -20,6 +29,27 @@
 a {
   color: #5D8CAE;
 
+}
+
+code {
+    padding: 1px 3px;
+    font-family: Inconsolata, monospace, sans-serif;
+    background-color: #3A4145;
+}
+
+pre {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 1.75em 0;
+    border: #E3EDF3 1px solid;
+    width: 100%;
+    padding: 10px;
+    font-family: Inconsolata, monospace, sans-serif;
+    font-size: 0.9em;
+    white-space: pre;
+    overflow: auto;
+    background: #F7FAFB;
+    border-radius: 3px;
 }
 
 /*Footer---------------------------------------------------------------------*/
